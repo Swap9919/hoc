@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 
 
-const Hoc = (WrappedComp) => {
+const Hoc = (WrappedComp, num) => {
 function Hoc(props) {
       const [count, setCount] = useState(0);
       const handleIncrement = () => {
-            setCount(count + 1)
+            setCount(count + num)
       }
   return (
     <div>

@@ -10,4 +10,4 @@ function Compb (props) {
   )
 }
 
-export default Hoc(Compb);
+export default Hoc(Compb,3);

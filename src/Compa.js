@@ -9,4 +9,4 @@ function Compa(props) {
   );
 }
 
-export default Hoc(Compa);
+export default Hoc(Compa,2);
